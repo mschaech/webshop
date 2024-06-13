@@ -1,6 +1,7 @@
-# Webshop
 
 ### Platzhalter von ChatGPT
+
+# Webshop
 
 Willkommen zu unserem Webshop-Projekt! Dies ist eine vollständige E-Commerce-Anwendung, die es Benutzern ermöglicht, Produkte anzusehen, zu kaufen und ihre Bestellungen zu verwalten. Dieses Projekt ist mit modernen Webtechnologien aufgebaut und umfasst eine benutzerfreundliche Oberfläche sowie eine robuste Backend-Infrastruktur.
 
