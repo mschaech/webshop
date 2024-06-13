@@ -1,6 +1,0 @@
-{
-    "terminal.explorerKind": "both",
-    "terminal.integrated.commandsToSkipShell": [
-        "node.js"
-    ]
-}
