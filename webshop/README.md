@@ -1,27 +1,121 @@
 # Webshop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+### Platzhalter von ChatGPT
 
-## Development server
+Willkommen zu unserem Webshop-Projekt! Dies ist eine vollständige E-Commerce-Anwendung, die es Benutzern ermöglicht, Produkte anzusehen, zu kaufen und ihre Bestellungen zu verwalten. Dieses Projekt ist mit modernen Webtechnologien aufgebaut und umfasst eine benutzerfreundliche Oberfläche sowie eine robuste Backend-Infrastruktur.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Inhaltsverzeichnis
 
-## Code scaffolding
+1. [Features](#features)
+2. [Technologien](#technologien)
+3. [Installation](#installation)
+4. [Nutzung](#nutzung)
+5. [Beitrag](#beitrag)
+6. [Lizenz](#lizenz)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Benutzerregistrierung und -authentifizierung
+- Produktsuche und -filterung
+- Produktbewertungen und -rezensionen
+- Einkaufswagen- und Bestellmanagement
+- Zahlungsintegration (z.B. PayPal, Stripe)
+- Admin-Dashboard zur Verwaltung von Produkten, Bestellungen und Benutzern
+- Responsive Design für optimale Nutzung auf mobilen Geräten
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologien
 
-## Running unit tests
+- **Frontend:**
+  - React.js
+  - Redux
+  - HTML5
+  - CSS3
+  - Bootstrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB
 
-## Running end-to-end tests
+- **Zahlungsintegration:**
+  - Stripe
+  - PayPal
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Authentifizierung:**
+  - JWT (JSON Web Token)
+  
+- **Deployment:**
+  - Docker
+  - Heroku / AWS
 
-## Further help
+## Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Voraussetzungen
+
+Stellen Sie sicher, dass folgende Software auf Ihrem System installiert ist:
+
+- Node.js
+- npm oder yarn
+- MongoDB
+- Docker (optional)
+
+### Schritte
+
+1. Klonen Sie das Repository:
+
+   ```bash
+   git clone https://github.com/IhrBenutzername/webshop.git
+   cd webshop
+   ```
+
+2. Installieren Sie die Abhängigkeiten für das Backend:
+
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. Installieren Sie die Abhängigkeiten für das Frontend:
+
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+4. Erstellen Sie eine `.env` Datei im `backend` Verzeichnis und fügen Sie die notwendigen Umgebungsvariablen hinzu:
+
+   ```env
+   PORT=5000
+   MONGO_URI=IhreMongoDBURI
+   JWT_SECRET=IhrJWTGeheimnis
+   PAYPAL_CLIENT_ID=IhrPayPalClientID
+   ```
+
+5. Starten Sie die Anwendung:
+
+   ```bash
+   cd ../backend
+   npm run dev
+   ```
+
+   Dies wird sowohl den Backend- als auch den Frontend-Server starten.
+
+## Nutzung
+
+- Besuchen Sie `http://localhost:3000` in Ihrem Browser, um den Webshop zu sehen.
+- Registrieren Sie sich als neuer Benutzer oder melden Sie sich an, um Produkte zu durchsuchen und Bestellungen zu verwalten.
+- Als Admin können Sie auf das Admin-Dashboard zugreifen, um Produkte und Bestellungen zu verwalten.
+
+## Beitrag
+
+Beiträge sind willkommen! Wenn Sie Fehler finden oder neue Features vorschlagen möchten, öffnen Sie bitte ein Issue oder erstellen Sie einen Pull-Request.
+
+1. Forken Sie das Repository
+2. Erstellen Sie Ihren Feature-Branch (`git checkout -b feature/AmazingFeature`)
+3. Committen Sie Ihre Änderungen (`git commit -m 'Add some AmazingFeature'`)
+4. Puschen Sie in den Branch (`git push origin feature/AmazingFeature`)
+5. Öffnen Sie einen Pull-Request
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert – siehe die [LICENSE.md](LICENSE.md) Datei für Details.
